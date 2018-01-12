@@ -49,6 +49,8 @@ token *getnext(char *arr) {
 			default:
 				nextstate = ERR;
 				break;
+		}	
+
 		switch(currstate) {
 			case SPC:
 				if(nextstate == DIG)
