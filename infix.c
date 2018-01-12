@@ -113,7 +113,8 @@ token *getnext(char *arr) {
 	}
 }
 int infix(char *str) {
-	token *t;
+	char c;
+    token *t;
 	stack a, b;
 	int result, x, y;
 	init(&a);
