@@ -6,7 +6,7 @@
 #define OPERATOR 20
 #define	END	30
 #define ERROR	40
-
+#define MAX 128
 int readline(char *arr, int len) {
 	int i = 0
 	int ch;
