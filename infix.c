@@ -8,7 +8,7 @@
 #define ERROR	40
 #define MAX 128
 int readline(char *arr, int len) {
-	int i = 0
+	int i = 0;
 	int ch;
 	while((ch = getchar()) != '\n' && i < len - 1) {
 		arr[i] = ch;
