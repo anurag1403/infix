@@ -25,6 +25,7 @@ typedef struct token {
 enum states { SPC, DIG, OPR, STOP, ERR };
 token *getnext(char *arr) {
 	static int currstate = SPC;
+	int nextstate;
 	static int i = 0;
 	int num;
 	token *t = (token *)malloc(sizeof(token));
